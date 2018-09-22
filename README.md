@@ -21,6 +21,7 @@ implementation "com.github.Raizlabs.DBFlow:dbflow:${dbflow_version}"
 ```
 
 ## DBFlow Configuration
+* To ensure generated code in DBFlow is found by the library, initialize the library in your Application class:
 
 ```java
 
@@ -117,4 +118,4 @@ public class Book extends BaseModel {
 
 ## App Images
 
-#Done Work
+# Done Work
